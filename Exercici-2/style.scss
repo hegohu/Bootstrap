@@ -5,13 +5,13 @@
 //SM en adelante
 
 @include media-breakpoint-between(xs, md){
-    .container{
-        background-color: red;
+    .container-fluid{
+        background-color: violet;
     } 
 }  
 
 @include media-breakpoint-between(lg, xxl){
-    .container{
+    .container-fluid{
         background-color: green;
     } 
 }  
